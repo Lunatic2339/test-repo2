@@ -9,15 +9,15 @@ num1 = int(first)
 num2 = int(second)
 
 # Caculate Sum
-# result = num1 - num2
+sum_result = num1 + num2
 
 # Caculate Difference
-result = num - num2
+diff_result = num1 - num2
 
-# Negative to Positive
-if result < 0:
-  result = -result
+# Caculate Multiply
+mul_result = num1 * num2
 
 # Output the Result
-# print("Sum: ",result)
-print("Difference: ",result)
+print("Sum: ",sum_result)
+print("Difference: ",diff_result)
+print("Multiply: ", mul_result)
