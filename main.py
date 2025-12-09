@@ -9,7 +9,15 @@ num1 = int(first)
 num2 = int(second)
 
 # Caculate Sum
-result = num1 + num2
+# result = num1 - num2
+
+# Caculate Difference
+result = num - num2
+
+# Negative to Positive
+if result < 0:
+  result = -result
 
 # Output the Result
-print("Sum: ",result)
+# print("Sum: ",result)
+print("Difference: ",result)
